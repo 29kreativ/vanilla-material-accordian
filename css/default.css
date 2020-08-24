@@ -1,0 +1,18 @@
+*{box-sizing: border-box; font-family: 'Roboto Condensed', sans-serif; color: #333; scrollbar-width: thin; scroll-behavior: smooth !important; }
+*::-webkit-scrollbar {width: 8px;}
+*::-webkit-scrollbar-track {background: #eee;}
+*::-webkit-scrollbar-thumb { background-color: #ccc; border: 1px solid #eee;  }
+
+html{scroll-behavior: smooth !important; }
+
+body{padding: 0px; margin: 0px; line-height: 150%;}
+.material-icons{font-size: 22px;}
+
+
+.cjf40-accordians-container {margin-top: 10px; padding-right: 20px; overflow-y: scroll; position: absolute;  height: 90%; }
+
+.cjf40-accordian{ margin-bottom: 20px; border-radius: 3px; background: #fff; padding:0px 15px 0px; box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 3px 0 rgba(0,0,0,0.2); }
+.cjf40-accordian.active{padding-bottom: 15px;}
+.cjf40-accordian .cjf40-accordian-button{cursor:pointer;height:50px; display: flex; align-items: center; justify-content: space-between;}
+.cjf40-accordian .cjf40-accordian-label{text-transform: uppercase;}
+.cjf40-accordian .cjf40-accordian-panel { background-color: white; max-height: 0; overflow: hidden; transition: max-height 0.2s ease-out;}
