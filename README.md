@@ -1,1 +1,1 @@
-# vanilla-material-accordian
+VanillaJS version of Material Accordion.
